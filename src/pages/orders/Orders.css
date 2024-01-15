@@ -1,0 +1,24 @@
+
+
+.table-header{
+    padding: 30px;
+}
+
+.round-button{
+    float: right;
+    background-color: #74C2F8 !important;
+    height: 40px !important;
+    width: 40px !important;
+    margin-left: 10px !important;
+}
+
+.new-order-button{
+    float: right;
+    background-color: #EDB678 !important;
+    border-radius: 30px !important;
+    color: white !important;
+    font-size: 15px !important;
+    padding: 5px 15px !important;
+    min-height: 40px !important;
+    margin-left: 10px !important;
+}

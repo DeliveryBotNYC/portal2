@@ -1,0 +1,29 @@
+.padding{
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+.padding h3{
+    padding: 0;
+}
+.warning{
+    position: absolute;
+    bottom: 20px;
+    color: #FF0000;
+    cursor: pointer;
+}
+.close{
+    position: absolute;
+    bottom: 20px;
+    color: #FF0000;
+    cursor: pointer;
+}
+.middle{
+    vertical-align: middle;
+}
+
+.warning b2{
+    margin-left: 5px;
+    color: #FF0000;
+    font-weight: 500;
+}

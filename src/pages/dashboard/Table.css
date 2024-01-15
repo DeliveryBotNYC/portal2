@@ -1,0 +1,31 @@
+.table h3{
+    padding: 30px;
+    margin: 0;
+}
+table {
+    border-spacing: 0;
+}
+
+th {
+    background-color: #EFF2F6;
+    padding: 15px 0px;
+}
+
+td{
+    border-bottom: 2px solid #EFF2F6;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+tr:last-child td{
+    border-bottom: 0;
+}
+
+tbody tr:hover{
+    background-color: #EFF2F6;
+}
+.viewall{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}

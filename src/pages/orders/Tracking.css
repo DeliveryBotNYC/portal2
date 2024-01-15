@@ -1,0 +1,40 @@
+.Accordion {
+    margin: 20px 5px !important;
+    box-shadow: none !important;
+    border-radius: 30px !important;
+}
+
+.Accordion p{
+    font-weight: bold;
+}
+
+.Accordion:before{
+    display: none !important;
+}
+
+b2{
+    font-size: 12px;
+    color: #808080;
+}
+.MuiAccordionSummary-content{
+    margin: 20px 10px !important;
+}
+
+.MuiAccordionSummary-root.Mui-expanded{
+    border-bottom: 2px solid #EFF2F6 !important
+}
+
+.label, .MuiFormControlLabel-label{
+    font-size: 0.75rem !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+      margin-bottom: -3px;
+      margin-right: 10px;
+}

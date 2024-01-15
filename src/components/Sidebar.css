@@ -1,0 +1,57 @@
+h2{
+    color: white;
+    margin-left: 20px;
+}
+
+.ps-sidebar-container{
+    background-color: transparent !important;
+}
+.ps-sidebar-root{
+    border: none !important;
+    height: 100%;
+    width: auto !important;
+    min-width: auto !important;
+}
+
+#logo{
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+#logo img{
+    padding: 15px;
+    width: 40px;
+    min-width: 35px;
+    height: 40px;
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    margin-left: 70px;
+    background-color: #EDB678;
+}
+
+.main{
+    width: 100%;
+    height: calc(100%-20px);
+    display: flex;
+    border-radius: 30px 30px 0px 0px;
+    z-index: 1;
+    margin-top: 70px;
+    margin-right: 20px;
+    box-sizing:border-box;
+    background-color: #EFF2F6;
+}
+
+.ps-menu-icon svg{
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,61 @@
+ul.tracking li {
+    position:relative; /* so that pseudoelements are positioned relatively to their "li"s*/
+    /* use padding-bottom instead of margin-bottom.*/ 
+    margin-bottom: 0; /* This overrides previously specified margin-bottom */
+    padding-bottom: 2.5em;
+}
+
+ul.tracking li:after {
+    /* bullets */
+    position: absolute;
+    left: -23px; /*adjust manually*/
+    top: 0px;
+
+    content: '';
+    width: 15px;
+    height: 15px;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    background-color: #E68A00;
+}
+
+ul.tracking li:before {
+    /* lines */
+    content:"";
+    position: absolute;
+    left: -16px; /* adjust manually */
+    border-left: 2px solid #E68A00;
+    height: 100%;
+    width: 1px;
+}
+
+ul.tracking li:first-child:before {
+   /* first li's line */
+   top: 6px; /* moves the line down so that it disappears under the bullet. Adjust manually */
+}
+
+ul.tracking li:last-child:before {
+    /* last li's line */
+   height: 6px; /* shorten the line so it goes only up to the bullet. Is equal to first-child:before's top */
+}
+
+
+
+
+ul.date li {
+    list-style-type: none;
+    position:relative; /* so that pseudoelements are positioned relatively to their "li"s*/
+    /* use padding-bottom instead of margin-bottom.*/ 
+    margin-bottom: 0; /* This overrides previously specified margin-bottom */
+    padding-bottom: 1.7em;
+    margin-top: -10px;
+}
+
+.date, .tracking{
+    float: left;
+}
+
+#show_all{float: left;
+    width: 100%;
+}
